@@ -1,0 +1,5 @@
+agent:
+  name: haptic_learner
+  type: haptic
+  policy: placeholder
+  self_improvement: true

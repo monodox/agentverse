@@ -1,0 +1,7 @@
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  curriculum: true
+  generate_haptic_labels: true
+  model_feedback_target: motoko

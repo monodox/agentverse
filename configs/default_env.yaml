@@ -1,0 +1,12 @@
+environment:
+  name: haptics_first_default
+  max_steps: 100
+  seed: 42
+
+haptics:
+  enabled: true
+  feedback_rate_hz: 60
+  signals:
+    - force
+    - pressure
+    - contact
