@@ -1,0 +1,56 @@
+{
+  "name": "@monodox/agentverse",
+  "version": "0.1.0",
+  "description": "AgentVerse TypeScript SDK — haptics-first agentic simulation by Haptis.",
+  "license": "Apache-2.0",
+  "author": "Haptis <support@monodox.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monodox/agentverse.git",
+    "directory": "packages/npm"
+  },
+  "homepage": "https://haptis.monodox.com",
+  "bugs": {
+    "url": "https://github.com/monodox/agentverse/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "haptics",
+    "robotics",
+    "simulation",
+    "agents",
+    "reinforcement-learning",
+    "agentverse"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "agentverse",
+  "private": true,
+  "description": "AgentVerse monorepo — haptics-first agentic simulation platform by Haptis.",
+  "workspaces": [
+    "packages/npm"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=packages/npm",
+    "test": "npm run test --workspace=packages/npm",
+    "test:python": "pytest packages/python",
+    "lint": "npm run lint --workspace=packages/npm",
+    "clean": "npm run clean --workspace=packages/npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monodox/agentverse"
+  },
+  "license": "Apache-2.0"
+}

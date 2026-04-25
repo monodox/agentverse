@@ -11,6 +11,38 @@ Unlike traditional simulators that focus mainly on vision and physics, AgentVers
 - Support: support@monodox.com
 - Legal: legal@monodox.com
 
+## Monorepo Structure
+
+This repository is organized as a monorepo with two packages:
+
+```
+packages/
+  python/   — Python package (PyPI: agentverse)
+  npm/      — TypeScript SDK (npm: @monodox/agentverse)
+```
+
+### Python Package
+
+The core simulation platform. Includes environments, agents, haptic primitives, model integration points, training utilities, and MuJoCo/USD backend hooks.
+
+```bash
+cd packages/python
+pip install -e ".[dev]"
+pytest
+```
+
+See [packages/python/docs/getting_started.md](packages/python/docs/getting_started.md) for full setup.
+
+### TypeScript SDK
+
+A TypeScript client that mirrors the Python package's public API for use in Node.js tooling, web dashboards, and JavaScript-based agent orchestration.
+
+```bash
+npm install
+npm run build
+npm test
+```
+
 ## Why AgentVerse
 
 AgentVerse is built around a self-improving loop:
@@ -31,56 +63,9 @@ AgentVerse sits inside the Haptis ecosystem alongside:
 - **Motoko**: the open-source haptic foundation model family.
 - **AgentVerse**: the simulation and training backbone for touch-aware agents.
 
-Together, these pieces form an open-source stack for haptic intelligence and next-generation robotics.
-
 ## Current Status
 
-This repository currently contains the Python package scaffold for AgentVerse:
-
-- Simulation environment interfaces
-- Robot and haptic environment hooks
-- Agent definitions, including haptic and teacher-agent placeholders
-- Haptic simulation primitives for force, touch, and sensor feedback
-- Motoko model integration placeholders
-- Training utilities for curricula, rewards, and training loops
-- MuJoCo and USD backend integration hooks
-- Examples, tests, documentation, and YAML configs
-
-The implementation is intentionally early-stage. The public interfaces are being shaped around the haptics-first training loop before backend integrations become production-complete.
-
-## Install
-
-```bash
-pip install -e .
-```
-
-For development tools:
-
-```bash
-pip install -e ".[dev]"
-```
-
-## Quick Start
-
-Run the basic agent example:
-
-```bash
-python examples/basic_agent.py
-```
-
-Run the test suite:
-
-```bash
-pytest
-```
-
-## Core Stack
-
-- Python package distributed through PyPI-compatible tooling
-- MuJoCo hooks for physics simulation
-- PyTorch-facing model integration points
-- Ray RLlib-oriented multi-agent training structure
-- YAML configuration for environments, agents, and training
+This repository is in early pre-alpha. The public interfaces are being shaped around the haptics-first training loop before backend integrations become production-complete.
 
 ## Open Source
 
@@ -90,7 +75,6 @@ pytest
 - Report vulnerabilities using [SECURITY.md](SECURITY.md).
 - Track planned work in [ROADMAP.md](ROADMAP.md).
 - See release notes in [CHANGELOG.md](CHANGELOG.md).
-- Use [.env.example](.env.example) as the local environment template.
 
 ## License
 

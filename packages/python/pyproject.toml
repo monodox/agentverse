@@ -9,6 +9,7 @@ description = "Haptics-first agentic simulation platform by Haptis."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
+license-files = ["LICENSE"]
 authors = [
   { name = "Haptis", email = "support@monodox.com" },
   { name = "Monodox", email = "legal@monodox.com" }
