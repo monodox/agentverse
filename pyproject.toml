@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Haptics-first agentic simulation platform by Haptis."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
 authors = [
   { name = "Haptis", email = "support@monodox.com" },
   { name = "Monodox", email = "legal@monodox.com" }
@@ -44,7 +44,6 @@ classifiers = [
   "Development Status :: 2 - Pre-Alpha",
   "Intended Audience :: Developers",
   "Intended Audience :: Science/Research",
-  "License :: OSI Approved :: Apache Software License",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Topic :: Scientific/Engineering :: Artificial Intelligence"
@@ -54,8 +53,8 @@ classifiers = [
 Homepage = "https://haptis.monodox.com"
 Repository = "https://github.com/monodox/agentverse"
 Issues = "https://github.com/monodox/agentverse/issues"
-Support = "mailto:support@monodox.com"
-Legal = "mailto:legal@monodox.com"
+Documentation = "https://github.com/monodox/agentverse#readme"
+Changelog = "https://github.com/monodox/agentverse/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = [
