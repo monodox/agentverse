@@ -10,4 +10,3 @@ def load_config(path: str | Path) -> dict[str, Any]:
     with Path(path).open("r", encoding="utf-8") as file:
         data = yaml.safe_load(file)
     return data or {}
-

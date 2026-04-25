@@ -3,4 +3,3 @@ class ForceSimulator:
 
     def compute_force(self, mass: float, acceleration: float) -> float:
         return mass * acceleration
-

@@ -3,4 +3,3 @@ class USDLoader:
 
     def load(self, path: str) -> dict[str, str]:
         return {"path": path}
-

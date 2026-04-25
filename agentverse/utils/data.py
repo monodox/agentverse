@@ -13,4 +13,3 @@ def batch(items: Iterable[T], size: int) -> Iterator[list[T]]:
             current = []
     if current:
         yield current
-

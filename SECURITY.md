@@ -8,14 +8,18 @@ AgentVerse is currently in early pre-alpha development. Security fixes are appli
 
 Please do not open a public issue for suspected security vulnerabilities.
 
-Report security concerns by emailing the maintainers or opening a private security advisory if the repository host supports it. Include:
+Report security concerns to support@monodox.com or open a private security advisory if the repository host supports it. Include:
 
 - A short description of the vulnerability.
 - Steps to reproduce the issue.
 - The affected files, versions, or configurations.
 - Any known impact or workaround.
 
+Repository security advisories and issues live at https://github.com/monodox/agentverse.
+
 We will acknowledge valid reports as soon as possible and coordinate fixes before public disclosure.
+
+For legal concerns, contact legal@monodox.com.
 
 ## Scope
 

@@ -4,6 +4,10 @@ Thanks for your interest in contributing to AgentVerse.
 
 AgentVerse is an open-source haptics-first simulation platform by Haptis. The project is early-stage, so contributions that improve clarity, correctness, tests, examples, and architecture are especially valuable.
 
+Repository: https://github.com/monodox/agentverse
+Support: support@monodox.com
+Legal: legal@monodox.com
+
 ## Development Setup
 
 Clone the repository and install it in editable mode:

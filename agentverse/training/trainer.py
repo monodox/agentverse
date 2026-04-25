@@ -15,4 +15,3 @@ class Trainer:
         action = self.agent.act(observation)
         next_state, reward, done, info = self.env.step(action)
         return {"state": next_state, "reward": reward, "done": done, "info": info}
-

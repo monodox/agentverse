@@ -3,4 +3,3 @@ class MujocoEnv:
 
     def load_model(self, model_path: str) -> str:
         return model_path
-

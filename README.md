@@ -4,6 +4,13 @@ AgentVerse is an open-source agentic simulation platform built by Haptis for tra
 
 Unlike traditional simulators that focus mainly on vision and physics, AgentVerse treats touch and force as foundational sensory primitives. The project is designed as the simulation backbone for haptic intelligence: agents observe, act, receive haptic feedback, and improve inside environments where force, pressure, contact, and tactile state are first-class signals.
 
+## Links
+
+- Haptis: https://haptis.monodox.com
+- Repository: https://github.com/monodox/agentverse
+- Support: support@monodox.com
+- Legal: legal@monodox.com
+
 ## Why AgentVerse
 
 AgentVerse is built around a self-improving loop:

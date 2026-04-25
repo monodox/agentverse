@@ -3,4 +3,3 @@ class EmbeddingModel:
 
     def encode(self, text: str) -> list[float]:
         return [float(len(text))]
-

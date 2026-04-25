@@ -11,4 +11,3 @@ class BaseAgent:
 
     def act(self, observation: dict[str, Any]) -> Any:
         return {"agent": self.name, "observation": observation}
-

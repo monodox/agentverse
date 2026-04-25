@@ -10,4 +10,3 @@ class TeacherAgent(BaseAgent):
 
     def demonstrate(self, observation: dict[str, Any]) -> Any:
         return self.act(observation)
-

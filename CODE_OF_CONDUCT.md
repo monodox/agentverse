@@ -26,4 +26,4 @@ Maintainers may remove comments, close issues, reject contributions, or block pa
 
 ## Reporting
 
-Report conduct concerns privately to the maintainers. Include relevant links, screenshots, or context where possible.
+Report conduct concerns privately to support@monodox.com. Include relevant links, screenshots, or context where possible.

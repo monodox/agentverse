@@ -7,4 +7,3 @@ class Curriculum:
     def advance(self) -> int:
         self.difficulty += 1
         return self.difficulty
-

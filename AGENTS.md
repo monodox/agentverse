@@ -6,6 +6,13 @@ Guidance for coding agents working in the AgentVerse repository.
 
 AgentVerse by Haptis is an open-source, haptics-first agentic simulation platform for training robots, AI models, and autonomous agents. It is designed around touch, force, pressure, contact, and tactile feedback as first-class simulation signals.
 
+Project links:
+
+- Haptis site: https://haptis.monodox.com
+- Repository: https://github.com/monodox/agentverse
+- Support: support@monodox.com
+- Legal: legal@monodox.com
+
 The project is currently in early pre-alpha. Most modules are scaffolds or placeholders that define the intended package shape:
 
 - `agentverse.env`: environment interfaces for base, haptic, and robot simulations.

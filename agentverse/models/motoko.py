@@ -8,4 +8,3 @@ class MotokoModel:
 
     def predict(self, inputs: dict[str, Any]) -> dict[str, Any]:
         return {"inputs": inputs, "prediction": None}
-
